@@ -6,10 +6,10 @@ const NavBar = () => {
 
     return (
         <nav className="p-4 flex h-[17vh] items-center justify-around">
-            <div className="text-4xl hover:cursor-default">
+            <div className="text-3xl hover:cursor-default">
                 <h1>Tarif Mohammad</h1>
             </div>
-            <div className="flex gap-10 text-2xl">
+            <div className="flex gap-8 text-2xl">
                 <a className={linkClass}>About</a>
                 <a className={linkClass}>Experience</a>
                 <a className={linkClass}>Projects</a>
