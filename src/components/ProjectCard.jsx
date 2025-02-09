@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({projectImg, name, githubLink, liveLink}) => {
     return (
-        <div className="flex flex-col gap-6 items-center p-6 border-1 rounded-4xl border-[#555555] max-w-[30vw]">
+        <div className="flex flex-col gap-6 items-center p-6 bg-[#ffffff] border-1 rounded-4xl border-[#555555] max-w-[26vw]">
             <img
                 className="size-[90%] rounded-4xl"
                 src={projectImg}
