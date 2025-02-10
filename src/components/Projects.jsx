@@ -7,7 +7,7 @@ import Project3Img from "../assets/project-3.png";
 
 const Projects = () => {
     return (
-        <BodySectionTemplate subTitle="Browse My" title="Projects" id="projects">
+        <BodySectionTemplate subTitle="Browse My" title="Projects" id="projects" nextSection="contact">
             <div className="flex gap-8 flex-wrap py-24 justify-center items-center">
                 <ProjectCard
                     projectImg={Project1Img}

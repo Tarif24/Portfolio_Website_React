@@ -9,3 +9,7 @@
 @theme {
     --color-gray: (85, 85, 85);
 }
+
+html {
+    scroll-behavior: smooth;
+}

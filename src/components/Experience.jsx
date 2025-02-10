@@ -5,7 +5,7 @@ import ExperienceItemsContainer from "./ExperienceItemsContainer";
 
 const Experience = () => {
     return (
-        <BodySectionTemplate subTitle="Explore My" title="Experience" id="experience">
+        <BodySectionTemplate subTitle="Explore My" title="Experience" id="experience" nextSection="projects">
             <div className="flex flex-1 gap-8 flex-wrap justify-between">
                 <ExperienceItemsContainer title="Frontend Development">
                     <ExperienceItem skill="HTML" skillLevel={3} />

@@ -6,7 +6,7 @@ import EducationIcon from "../assets/education.png";
 
 const About = () => {
     return (
-        <BodySectionTemplate subTitle="Get To Know More" title="About Me" id="about">
+        <BodySectionTemplate subTitle="Get To Know More" title="About Me" id="about" nextSection="experience">
             <div className="flex justify-between">
                 <div className="size-[400px] size-min-[400px]">
                     <img
