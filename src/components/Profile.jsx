@@ -20,6 +20,10 @@ const Profile = () => {
         window.open('https://www.linkedin.com/in/tarif-mohammad-224a9316avgf');
     }
 
+    const onContactClicked = () => {
+        location.href = "#contact";
+    }
+
     return (
         <div className="h-[80vh] pt-[4vh] flex justify-center items-center gap-20">
             <div>
@@ -36,10 +40,10 @@ const Profile = () => {
                     Frontend Developer
                 </h1>
                 <div className="flex justify-center items-center gap-4">
-                    <button className="text-center border-[0.1rem] rounded-4xl border-[#555555] p-4 font-bold w-[8rem] text-[0.8rem] hover:text-white hover:bg-[#555555] hover:cursor-pointer transition duration-300 ease-in-out" onClick = {onDownloadCVClicked}>
+                    <button className="text-center border-[0.1rem] rounded-4xl border-[#555555] p-4 font-bold w-[8rem] text-[0.8rem] hover:text-white hover:bg-[#353535] hover:cursor-pointer transition duration-300 ease-in-out" onClick = {onDownloadCVClicked}>
                         Download CV
                     </button>
-                    <button className="text-white bg-[#555555] text-center border-[0.1rem] rounded-4xl border-[#555555] p-4 font-bold w-[8rem] text-[0.8rem] hover:bg-black hover:cursor-pointer transition duration-300 ease-in-out">
+                    <button className="text-white bg-[#353535] text-center border-[0.1rem] rounded-4xl border-[#555555] p-4 font-bold w-[8rem] text-[0.8rem] hover:bg-black hover:cursor-pointer transition duration-300 ease-in-out" onClick = {onContactClicked}>
                         Contact Info
                     </button>
                 </div>

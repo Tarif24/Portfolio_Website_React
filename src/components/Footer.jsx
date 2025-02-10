@@ -8,6 +8,9 @@ const Footer = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-16 h-[26vh]">
             <div className="flex gap-8 text-2xl">
+                <a href="#home" className={linkClass}>
+                    Home
+                </a>
                 <a href="#about" className={linkClass}>
                     About
                 </a>
