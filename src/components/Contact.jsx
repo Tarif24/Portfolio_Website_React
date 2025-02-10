@@ -17,7 +17,7 @@ const Contact = () => {
                 Get In Touch
             </h1>
             <h1 className="text-center text-5xl font-bold">Contact Me</h1>
-            <div className="flex gap-8 border-1 rounded-4xl border-[#8b8b8b] p-8 mt-8 bg-[#fafafa]">
+            <div className="flex gap-8 border-1 rounded-4xl border-[#8b8b8b] p-6 mt-8 bg-[#fafafa]">
                 <div className="flex gap-2 justify-center items-center" onClick={onEmailClicked}>
                     <img className="size-[2.5rem]" src={EmailIcon} alt="Email Icon" />
                     <a className="hover:text-[#555555] decoration-[#8b8b8b]  hover:underline underline-offset-[1rem] hover:cursor-pointer transition duration-300 ease-in-out text-[1.25rem]">Tarif24@hotmail.com</a>
