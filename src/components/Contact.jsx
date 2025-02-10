@@ -12,7 +12,7 @@ const Contact = () => {
     }
     
     return (
-        <section className="flex flex-col items-center justify-center w-full h-[70vh] box-border pt-[4vh] px-[10rem] gap-4">
+        <section id="contact" className="flex flex-col items-center justify-center w-full h-[70vh] box-border pt-[4vh] px-[10rem] gap-4">
             <h1 className="text-center text-1xl text-[#555555]">
                 Get In Touch
             </h1>

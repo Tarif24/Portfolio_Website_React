@@ -10,10 +10,18 @@ const NavBar = () => {
                 <h1>Tarif Mohammad</h1>
             </div>
             <div className="flex gap-8 text-2xl">
-                <a className={linkClass}>About</a>
-                <a className={linkClass}>Experience</a>
-                <a className={linkClass}>Projects</a>
-                <a className={linkClass}>Contact</a>
+                <a href="#about" className={linkClass}>
+                    About
+                </a>
+                <a href="#experience" className={linkClass}>
+                    Experience
+                </a>
+                <a href="#projects" className={linkClass}>
+                    Projects
+                </a>
+                <a href="#contact" className={linkClass}>
+                    Contact
+                </a>
             </div>
         </nav>
     );
