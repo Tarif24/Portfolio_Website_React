@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
     const linkClass =
-        "hover:text-gray-500 decoration-gray-400 hover:underline underline-offset-[1rem] hover:cursor-pointer transition duration-300 ease-in-out";
+        "hover:text-[#555555] decoration-[#8b8b8b] hover:underline underline-offset-[1rem] hover:cursor-pointer transition duration-300 ease-in-out";
 
     return (
         <nav className="p-4 flex h-[17vh] items-center justify-around">
