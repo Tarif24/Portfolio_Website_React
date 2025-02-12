@@ -10,7 +10,7 @@ const ProjectCard = ({projectImg, name, githubLink, liveLink}) => {
     }
     
     return (
-        <div className="flex flex-col gap-6 items-center p-6 bg-[#ffffff] border-1 rounded-4xl border-[#555555] max-w-[26vw]">
+        <div className="flex flex-col gap-6 items-center p-6 bg-[#ffffff] border-2 rounded-4xl border-[#555555] max-w-[26vw]">
             <img
                 className="size-[90%] rounded-4xl border-1 border-[#555555]"
                 src={projectImg}
@@ -18,10 +18,10 @@ const ProjectCard = ({projectImg, name, githubLink, liveLink}) => {
             />
             <h1 className="font-bold text-3xl">{name}</h1>
             <div className="flex gap-4">
-                <button className="font-medium border-1 rounded-[4rem] border-[#555555] align-text-center p-3 w-[8rem] transition duration-300 ease-in-out hover:text-white hover:bg-[#555555] hover:cursor-pointer" onClick={onGitHubClicked}>
+                <button className="font-medium border-2 rounded-[4rem] border-[#555555] align-text-center p-3 w-[8rem] transition duration-300 ease-in-out hover:text-white hover:bg-[#555555] hover:cursor-pointer" onClick={onGitHubClicked}>
                     GitHub
                 </button>
-                <button className="font-medium border-1 rounded-[4rem] border-[#555555] align-text-center p-4 w-[8rem] transition duration-300 ease-in-out hover:text-white hover:bg-[#555555] hover:cursor-pointer" onClick={onLiveClicked}>
+                <button className="font-medium border-2 rounded-[4rem] border-[#555555] align-text-center p-4 w-[8rem] transition duration-300 ease-in-out hover:text-white hover:bg-[#555555] hover:cursor-pointer" onClick={onLiveClicked}>
                     Live Demo
                 </button>
             </div>
