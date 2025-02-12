@@ -3,6 +3,7 @@ import BodySectionTemplate from "./BodySectionTemplate";
 import AboutImage from "../assets/about-pic1.jpg";
 import ExperienceIcon from "../assets/experience.png";
 import EducationIcon from "../assets/education.png";
+import { FaGraduationCap } from "react-icons/fa";
 
 const About = () => {
     return (
@@ -28,7 +29,9 @@ const About = () => {
                             </h1>
                         </div>
                         <div className="flex flex-col border-1 border-[#555555] justify-center items-center flex-1 rounded-4xl p-[1.5rem]">
-                            <img className="size-[2rem] mb-4" src={EducationIcon} alt="Education Icon" />
+                            <div className="mb-4">
+                                <FaGraduationCap size="2rem"/>
+                            </div>
                             <h1 className="font-bold">Education</h1>
                             <h1 className="text-[#555555]">Ontario College Advanced Diploma</h1>
                             <h1 className="text-[#555555]">in <b>Game Programming</b></h1>
