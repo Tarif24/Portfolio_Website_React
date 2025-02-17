@@ -4,13 +4,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="assets/logo-inverted-1.png" alt="Logo" width="240" height="240">
+    <img src="src/assets/logo-inverted-1.png" alt="Logo" width="240" height="240">
   </a>
 
   <h3 align="center">Portfolio Website</h3>
 
   <p align="center">
-    My portfolio website made only with the basics
+    My portfolio website made with the basics of react
     <br />
     <br />
     <br />
@@ -47,7 +47,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]][Live-Demo]
+[![Product Screen Shot][product-screenshot]][Live-Demo]
 
 This is my first project in web dev which has taught me so much. This project is very simple and is the simplist and most basic form of web dev. This is my portfolio project and it breaks down everything into 5 distinct sections profile, about, experience, projects and contact. In my opinion this is a very clean and simple first project and first portfolio and welcome anyone who would like to copy the repo go through it adn make it thier own.
 
@@ -121,5 +121,5 @@ This is a list of recources that i found helpful and would like to give credit t
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[product-screenshot]: assets/readme-image.png
+[product-screenshot]: src/assets/readme-image.png
 [Live-Demo]: https://tarifmohammad.com
