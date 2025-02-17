@@ -25,19 +25,19 @@ const Projects = () => {
                     projectImg={Project2Img}
                     name="Mini Projects"
                     githubLink="https://github.com/Tarif24/Mini_Projects_Website"
-                    liveLink="https://mini-projects.wuaze.com/"
+                    liveLink="https://miniprojects.tarifmohammad.com/"
                 />
                 <ProjectCard
                     projectImg={Project3Img}
                     name="Game Browser"
                     githubLink="https://github.com/Tarif24/Game_Browser_Website"
-                    liveLink="https://game-browser.wuaze.com"
+                    liveLink="https://gamebrowser.tarifmohammad.com/"
                 />
                 <ProjectCard
                     projectImg={Project4Img}
                     name="Job Search"
-                    githubLink="https://github.com/Tarif24/Game_Browser_Website"
-                    liveLink="https://game-browser.wuaze.com"
+                    githubLink="https://github.com/Tarif24/Job_Listing_Website_React"
+                    liveLink="https://joblisting.tarifmohammad.com/"
                 />
             </div>
         </BodySectionTemplate>
