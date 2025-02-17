@@ -73,7 +73,7 @@ This is only if you would like to replicate or make a project similar to this
 ### Prerequisites
 
 -   Install the code editor of choice (mine was VS CODE)
--   -   npm
+-   npm
 
 ```sh
 npm install npm@latest -g
