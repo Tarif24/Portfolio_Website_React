@@ -16,7 +16,7 @@
     <br />
     <a href="https://tarifmohammad.com">View Demo</a>
     &middot;
-    <a href="https://github.com/Tarif24/Portfolio_Website/issues/new">Report Bug</a>
+    <a href="https://github.com/Tarif24/Portfolio_Website_React/issues/new">Report Bug</a>
   </p>
 </div>
 
@@ -49,7 +49,7 @@
 
 [![Product Screen Shot][product-screenshot]][Live-Demo]
 
-This is my first project in web dev which has taught me so much. This project is very simple and is the simplist and most basic form of web dev. This is my portfolio project and it breaks down everything into 5 distinct sections profile, about, experience, projects and contact. In my opinion this is a very clean and simple first project and first portfolio and welcome anyone who would like to copy the repo go through it adn make it thier own.
+This is my portfolio project, it was originaly a vanila html,css and js project but I decided to convert it to use react and this showed me the benefits of using a powerful library such as react. It breaks down everything into 5 distinct sections profile, about, experience, projects and contact. In my opinion this is a very clean and simple first project that uses react and welcome anyone who would like to copy the repo go through it and make it thier own.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -58,8 +58,9 @@ This is my first project in web dev which has taught me so much. This project is
 These are all of the tools used for this project
 
 -   HTML
--   CSS
 -   JavaScript
+-   Tailwind CSS
+-   React
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,9 +72,12 @@ This is only if you would like to replicate or make a project similar to this
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
 -   Install the code editor of choice (mine was VS CODE)
+-   -   npm
+
+```sh
+npm install npm@latest -g
+```
 
 ### Installation
 
@@ -82,7 +86,11 @@ This is an example of how to list things you need to use the software and how to
     git clone https://github.com/Tarif24/Portfolio_Website.git
     ```
     or just copy the zip file from this repo
-2. After this you should be good to go just look over the files and personalize it to fit your needs
+2. Install NPM packages
+    ```sh
+    npm install
+    ```
+3. Then your all good to go and can start editing the files
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +98,7 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-The main use for this project would be to copy this repo and rework it to fit your needs and make it your own personal portfolio. Another use of this project could be to use it as a learning tool since it uses basic web dev so it would be a great tool to learn and see what does what in a web page.
+The main use for this project would be to copy this repo and rework it to fit your needs and make it your own personal portfolio. Another use of this project could be to use it as a learning tool since it uses basic react knowledge so it would be a great tool to learn and see how react works.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +108,7 @@ The main use for this project would be to copy this repo and rework it to fit yo
 
 Tarif Mohammad - [@GitHub](https://github.com/Tarif24) - [@Linkedin](https://www.linkedin.com/in/tarif-mohammad/) - Tarif24@hotmail.com
 
-Project Link: [https://github.com/Tarif24/Portfolio_Website](https://github.com/Tarif24/Portfolio_Website)
+Project Link: [https://github.com/Tarif24/Portfolio_Website_React](https://github.com/Tarif24/Portfolio_Website_React)
 
 Live Link: [https://tarifmohammad.com][Live-Demo]
 
@@ -115,6 +123,8 @@ This is a list of recources that i found helpful and would like to give credit t
 -   [HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
 -   [CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 -   [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+-   [React Documentation](https://react.dev/)
+-   [Tailwind CSS Documentation](https://tailwindcss.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
