@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/Tarif24/Portfolio_Website_React">
     <img src="src/assets/logo-inverted-1.png" alt="Logo" width="240" height="240">
   </a>
 
@@ -125,6 +125,7 @@ This is a list of recources that i found helpful and would like to give credit t
 -   [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 -   [React Documentation](https://react.dev/)
 -   [Tailwind CSS Documentation](https://tailwindcss.com/)
+-   [React Icons Documentation](https://react-icons.github.io/react-icons/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
