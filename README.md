@@ -83,7 +83,7 @@ npm install npm@latest -g
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/Tarif24/Portfolio_Website.git
+    git clone https://github.com/Tarif24/Portfolio_Website_React.git
     ```
     or just copy the zip file from this repo
 2. Install NPM packages
