@@ -2,7 +2,7 @@ import React from "react";
 import profilePic from "../assets/profile-pic.jpg";
 import GitHubLogo from "../assets/github.png";
 import LinkedinLogo from "../assets/linkedin.png";
-import Resume from "../assets/Tarif Mohammad Resume.pdf"
+import Resume from "../assets/Tarif_Mohammad_Resume.pdf";
 
 const Profile = () => {
     const logoClass =
@@ -10,19 +10,19 @@ const Profile = () => {
 
     const onDownloadCVClicked = () => {
         window.open(Resume);
-    }
+    };
 
     const onGitHubClicked = () => {
-        window.open('https://github.com/Tarif24');
-    }
+        window.open("https://github.com/Tarif24");
+    };
 
     const onLinkedinClicked = () => {
-        window.open('https://www.linkedin.com/in/tarif-mohammad-224a9316avgf');
-    }
+        window.open("https://www.linkedin.com/in/tarif-mohammad-224a9316avgf");
+    };
 
     const onContactClicked = () => {
         location.href = "#contact";
-    }
+    };
 
     return (
         <div className="h-[80vh] pt-[4vh] flex justify-center items-center gap-20">
@@ -40,10 +40,16 @@ const Profile = () => {
                     Frontend Developer
                 </h1>
                 <div className="flex justify-center items-center gap-4">
-                    <button className="text-center border-[0.1rem] rounded-4xl border-[#555555] p-4 font-bold w-[8rem] text-[0.8rem] hover:text-white hover:bg-[#353535] hover:cursor-pointer transition duration-300 ease-in-out" onClick = {onDownloadCVClicked}>
+                    <button
+                        className="text-center border-[0.1rem] rounded-4xl border-[#555555] p-4 font-bold w-[8rem] text-[0.8rem] hover:text-white hover:bg-[#353535] hover:cursor-pointer transition duration-300 ease-in-out"
+                        onClick={onDownloadCVClicked}
+                    >
                         Download CV
                     </button>
-                    <button className="text-white bg-[#353535] text-center border-[0.1rem] rounded-4xl border-[#555555] p-4 font-bold w-[8rem] text-[0.8rem] hover:bg-black hover:cursor-pointer transition duration-300 ease-in-out" onClick = {onContactClicked}>
+                    <button
+                        className="text-white bg-[#353535] text-center border-[0.1rem] rounded-4xl border-[#555555] p-4 font-bold w-[8rem] text-[0.8rem] hover:bg-black hover:cursor-pointer transition duration-300 ease-in-out"
+                        onClick={onContactClicked}
+                    >
                         Contact Info
                     </button>
                 </div>
