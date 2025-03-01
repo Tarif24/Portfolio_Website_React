@@ -7,19 +7,28 @@ import { FaGraduationCap } from "react-icons/fa";
 
 const About = () => {
     return (
-        <BodySectionTemplate subTitle="Get To Know More" title="About Me" id="about" nextSection="experience">
-            <div className="flex justify-between">
-                <div className="size-[400px] size-min-[400px]">
+        <BodySectionTemplate
+            subTitle="Get To Know More"
+            title="About Me"
+            id="about"
+            nextSection="experience"
+        >
+            <div className="flex justify-between items-center gap-16 my-16 lg:flex-row flex-col">
+                <div className="flex items-center md:size-[400px] size-[80%] xl:min-h-[400px] xl:min-w-[400px]">
                     <img
                         className="rounded-4xl"
                         src={AboutImage}
                         alt="About Image"
                     />
                 </div>
-                <div className="flex flex-col w-[70%] justify-center gap-8">
-                    <div className="flex w-full justify-between gap-[2rem]">
-                        <div className="flex flex-col border-1 border-[#555555] justify-center items-center flex-1 rounded-4xl p-[1.5rem]">
-                            <img className="size-[2rem] mb-4" src={ExperienceIcon} alt="Experience Icon" />
+                <div className="flex flex-col lg:w-[70%] md:w-full justify-center gap-8">
+                    <div className="flex w-full justify-between gap-[2rem] xl:flex-row lg:flex-col flex-col">
+                        <div className="flex flex-col border-1 border-[#555555] justify-center items-center flex-1 rounded-4xl p-[1.5rem] text-center">
+                            <img
+                                className="size-[2rem] mb-4"
+                                src={ExperienceIcon}
+                                alt="Experience Icon"
+                            />
                             <h1 className="font-bold">Experience</h1>
                             <h1 className="text-[#555555]">
                                 1+ years - <b>Frontend Develoment</b>
@@ -28,17 +37,21 @@ const About = () => {
                                 3+ years - <b>Game Develoment</b>
                             </h1>
                         </div>
-                        <div className="flex flex-col border-1 border-[#555555] justify-center items-center flex-1 rounded-4xl p-[1.5rem]">
+                        <div className="flex flex-col border-1 border-[#555555] justify-center items-center flex-1 rounded-4xl p-[1.5rem] text-center">
                             <div className="mb-4">
-                                <FaGraduationCap size="2rem"/>
+                                <FaGraduationCap size="2rem" />
                             </div>
                             <h1 className="font-bold">Education</h1>
-                            <h1 className="text-[#555555]">Ontario College Advanced Diploma</h1>
-                            <h1 className="text-[#555555]">in <b>Game Programming</b></h1>
+                            <h1 className="text-[#555555]">
+                                Ontario College Advanced Diploma
+                            </h1>
+                            <h1 className="text-[#555555]">
+                                in <b>Game Programming</b>
+                            </h1>
                         </div>
                     </div>
                     <div>
-                        <h1 className="text-[#555555]">
+                        <h1 className="text-[#555555] xl:text-left lg:text-justify text-justify">
                             Hello, My name is Tarif Mohammad and I graduated
                             from George Brown College for Game Programming. My
                             journey began as a game developer but now my passion
