@@ -16,10 +16,12 @@ const Contact = () => {
             id="contact"
             className="flex flex-col items-center justify-center w-full h-[70vh] box-border pt-[4vh] md:px-[10rem] px-[1rem] gap-4"
         >
-            <h1 className="text-center text-1xl text-[#555555]">
+            <h1 className="text-center sm:text-[1rem] text-[0.8rem] text-[#555555]">
                 Get In Touch
             </h1>
-            <h1 className="text-center text-5xl font-bold">Contact Me</h1>
+            <h1 className="text-center sm:text-5xl text-4xl font-bold">
+                Contact Me
+            </h1>
             <div className="flex gap-8 border-1 rounded-4xl border-[#8b8b8b] p-6 mt-8 bg-[#fafafa]">
                 <div
                     className="flex sm:gap-2 gap-1 justify-center items-center"
