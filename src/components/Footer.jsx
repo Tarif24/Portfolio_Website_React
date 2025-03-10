@@ -6,8 +6,9 @@ const Footer = () => {
         "hover:text-[#555555] decoration-[#8b8b8b] hover:underline underline-offset-[1rem] hover:cursor-pointer transition duration-300 ease-in-out";
 
     return (
-        <div className="flex flex-col justify-center items-center gap-16 h-[26vh]">
-            <div className="flex gap-8 text-2xl">
+        <div className="flex flex-col justify-center items-center gap-16 sm:h-[26vh] h-fit pt-8">
+            <span className="border-1 w-[90%] border-[#8b8b8b]"></span>
+            <div className="flex sm:flex-row flex-col gap-8 text-2xl text-center">
                 <a href="#home" className={linkClass}>
                     Home
                 </a>
