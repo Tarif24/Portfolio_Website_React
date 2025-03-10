@@ -5,8 +5,13 @@ import ExperienceItemsContainer from "./ExperienceItemsContainer";
 
 const Experience = () => {
     return (
-        <BodySectionTemplate subTitle="Explore My" title="Experience" id="experience" nextSection="projects">
-            <div className="flex flex-1 gap-8 flex-wrap justify-between">
+        <BodySectionTemplate
+            subTitle="Explore My"
+            title="Experience"
+            id="experience"
+            nextSection="projects"
+        >
+            <div className="flex flex-1 gap-8 flex-wrap md:flex-row flex-col justify-between md:items-stretch items-center my-16 w-full">
                 <ExperienceItemsContainer title="Frontend Development">
                     <ExperienceItem skill="HTML" skillLevel={3} />
                     <ExperienceItem skill="CSS" skillLevel={3} />
