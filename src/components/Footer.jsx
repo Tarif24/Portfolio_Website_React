@@ -22,8 +22,8 @@ const Footer = () => {
                     Projects
                 </a>
             </div>
-            <h1 className="text-[#555555] pb-4">
-                Copyright &#169; 2024 Tarif Mohammad. All Rights Reserved
+            <h1 className="text-[#555555] pb-16 sm:text[1rem] text-[0.75rem] text-center">
+                Copyright &#169; 2025 Tarif Mohammad. All Rights Reserved
             </h1>
         </div>
     );
