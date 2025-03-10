@@ -25,18 +25,20 @@ const Profile = () => {
     };
 
     return (
-        <div className="h-[80vh] pt-[4vh] flex justify-center items-center gap-20">
+        <div className="xl:h-[80vh] xl:pt-[4vh] xl:pb-0 pt-16 pb-20 flex xl:flex-row flex-col justify-center items-center xl:gap-20 gap-12">
             <div>
                 <img
-                    className="size-100 rounded-[13rem]"
+                    className="xl:size-100 sm:size-75 size-60 rounded-[13rem]"
                     src={profilePic}
                     alt="Profile Picture"
                 />
             </div>
             <div className="text-center self-center space-y-[1rem]">
                 <h1 className="text-[#555555] font-bold">Hello, I am</h1>
-                <h1 className="text-5xl font-bold">Tarif Mohammad</h1>
-                <h1 className="text-[#555555] font-bold text-[1.75rem]">
+                <h1 className="sm:text-5xl text-3xl font-bold">
+                    Tarif Mohammad
+                </h1>
+                <h1 className="text-[#555555] font-bold sm:text-[1.75rem] text-[1.3rem]">
                     Frontend Developer
                 </h1>
                 <div className="flex justify-center items-center gap-4">
