@@ -14,7 +14,7 @@ const Projects = () => {
             id="projects"
             nextSection="contact"
         >
-            <div className="flex gap-8 flex-wrap py-24 justify-between items-center">
+            <div className="my-16 grid 2xl:grid-cols-3 lg:grid-cols-2 gap-8">
                 <ProjectCard
                     projectImg={Project1Img}
                     name="Elemental Wars"
