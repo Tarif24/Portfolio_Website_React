@@ -3,7 +3,9 @@ import EmailIcon from "../assets/email.png";
 import LinkedinIcon from "../assets/linkedin.png";
 
 const Contact = () => {
-    const onEmailClicked = () => {};
+    const onEmailClicked = () => {
+        window.open("mailto:Tarif24@hotmail.com");
+    };
 
     const onLinkedinClicked = () => {
         window.open("https://www.linkedin.com/in/tarif-mohammad-224a9316avgf");
