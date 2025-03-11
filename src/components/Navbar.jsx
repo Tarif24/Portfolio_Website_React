@@ -1,4 +1,5 @@
 import React from "react";
+import HamburgerNav from "./HamburgerNav";
 
 const NavBar = () => {
     const linkClass =
@@ -7,12 +8,12 @@ const NavBar = () => {
     return (
         <nav
             id="home"
-            className="p-4 flex h-[17vh] items-center justify-around hidden"
+            className="p-4 flex h-[17vh] items-center justify-around"
         >
-            <div className="text-3xl hover:cursor-default">
+            <div className="lg:text-3xl text-2xl hover:cursor-default">
                 <h1>Tarif Mohammad</h1>
             </div>
-            <div className="flex gap-8 text-2xl">
+            <div className="lg:flex hidden gap-8 text-2xl">
                 <a href="#about" className={linkClass}>
                     About
                 </a>
@@ -26,6 +27,7 @@ const NavBar = () => {
                     Contact
                 </a>
             </div>
+            <HamburgerNav />
         </nav>
     );
 };
