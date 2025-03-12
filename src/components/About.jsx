@@ -54,14 +54,22 @@ const About = () => {
                             Hello, My name is Tarif Mohammad and I graduated
                             from George Brown College for Game Programming. My
                             journey began as a game developer but now my passion
-                            has moved towards web development. I love the vast
-                            freedom and possibilities that programming provides
-                            and how web development can transform these ideas
-                            into engaging online experiences, I would like to
-                            obtain a position where my experience, eagerness,
-                            and proficiency to learn will allow me the
-                            opportunity to gain valuable knowledge in
-                            Programming and the world of development.
+                            has moved towards web development.
+                            <br />
+                            <br />I love the vast freedom and possibilities that
+                            programming provides and how web development can
+                            transform these ideas into interactable sites that I
+                            can have up and running in seconds. I feel that with
+                            websites others can reach my work fast and anywhere
+                            they are weather it be on the computer or a phone.
+                            This ease of uploading sites and ease of people
+                            being able to see and interact with my work is why I
+                            love Web Dev.
+                            <br />
+                            <br />I would like to obtain a position where my
+                            experience, eagerness, and proficiency to learn will
+                            allow me the opportunity to gain valuable knowledge
+                            in Programming and the world of development.
                         </h1>
                     </div>
                 </div>
