@@ -11,7 +11,7 @@ const BodySectionTemplate = ({
     return (
         <section
             id={id}
-            className="relative flex flex-col items-center w-full h-[96vh] min-h-fit box-border pt-[4vh] xl:px-[10rem] lg:px-[7rem] md:px-[5rem] px-[2rem]"
+            className="relative flex flex-col items-center w-full md:h-[96vh] h-fit min-h-fit box-border pt-[4vh] xl:px-[10rem] lg:px-[7rem] md:px-[5rem] px-[2rem]"
         >
             <h1 className="text-center sm:text-[1rem] text-[0.8rem] pb-4 text-[#555555]">
                 {subTitle}

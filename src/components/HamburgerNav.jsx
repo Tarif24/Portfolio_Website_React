@@ -29,7 +29,7 @@ const HamburgerNav = () => {
             </div>
             <div className={backgroundClass}></div>
             <div id="nav" className={hamburgerNavClass}>
-                <div className="flex flex-col justify-center items-center gap-8 py-8 text-center w-[100vw] border-1 bg-white rounded-b-2xl">
+                <div className="flex flex-col justify-center items-center gap-8 py-8 text-center w-[100vw] bg-white rounded-b-2xl">
                     <div
                         className="absolute right-4 top-4 hover:cursor-pointer"
                         onClick={() => {
