@@ -31,6 +31,7 @@ const Experience = () => {
                     <ExperienceItem skill="GitHub" skillLevel={2} />
                     <ExperienceItem skill="Perforce" skillLevel={2} />
                     <ExperienceItem skill="SourceTree" skillLevel={1} />
+                    <ExperienceItem skill="GitLab" skillLevel={1} />
                 </ExperienceItemsContainer>
 
                 <ExperienceItemsContainer title="Soft Skills">

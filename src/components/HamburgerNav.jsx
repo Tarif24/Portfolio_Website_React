@@ -12,6 +12,7 @@ const HamburgerNav = () => {
     let backgroundClass = `absolute left-0 top-0 bg-black w-[100vw] h-[100vh] opacity-40 ${isActive ? "" : "hidden"}`;
 
     if (isActive) {
+        window.scrollTo(0, 0);
         document.body.style.overflow = "hidden";
     } else {
         document.body.style.overflow = "scroll";
