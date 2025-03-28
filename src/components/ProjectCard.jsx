@@ -2,7 +2,15 @@ import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { IoInformationCircleOutline } from "react-icons/io5";
 
-const ProjectCard = ({ projectImg, name, githubLink, liveLink }) => {
+const ProjectCard = ({
+    projectImg,
+    name,
+    githubLink,
+    liveLink,
+    tech,
+    startDate,
+    endDate,
+}) => {
     const [isAboutActive, setIsAboutActive] = useState(false);
 
     const onGitHubClicked = () => {
@@ -17,15 +25,23 @@ const ProjectCard = ({ projectImg, name, githubLink, liveLink }) => {
 
     const infoIconStyle = isAboutActive ? "text-white" : "text-black";
 
-    const aboutStyle = `absolute top-0 justify-self-center flex flex-col gap-4 justify-center items-center text-white w-full h-full bg-[#414141] border-8 rounded-4xl border-white transition duration-250 ease-in-out ${isAboutActive ? "opacity-100" : "opacity-0"}`;
+    const aboutStyle = `absolute top-0 justify-self-center flex flex-col gap-4 justify-center items-center text-white w-full h-full bg-[#414141] border-4 rounded-4xl border-white transition duration-250 ease-in-out ${isAboutActive ? "opacity-100" : "opacity-0"}`;
 
     return (
-        <div className="relative flex flex-1 flex-col gap-6 items-center p-6 bg-[#f7f7f7] border-2 rounded-4xl border-[#555555] lg:w-full md:w-[80%] justify-self-center">
+        <div className="relative flex flex-1 flex-col gap-6 items-center p-6 bg-[#f7f7f7] border-2 rounded-4xl border-[#555555] lg:w-full md:w-[80%] justify-self-center pb-12 sm:pb-6">
             <div className={aboutStyle}>
-                <h1 className="text-[3rem] font-bold mb-8">About</h1>
-                <h1 className="text-[1.5rem]">Built With: HTML, CSS, JS</h1>
-                <h1 className="text-[1.5rem]">Start Date: 2025-03-28</h1>
-                <h1 className="text-[1.5rem]">End Date: 2025-03-28</h1>
+                <h1 className="text-[2rem] sm:text-[3rem] font-bold mb-8">
+                    About
+                </h1>
+                <h1 className="text-[1rem] sm:text-[1.5rem] text-center w-[70%]">
+                    <b>Built With:</b> {tech}
+                </h1>
+                <h1 className="text-[1rem] sm:text-[1.5rem] text-center">
+                    <b>Start Date:</b> {startDate}
+                </h1>
+                <h1 className="text-[1rem] sm:text-[1.5rem] text-center">
+                    <b>End Date:</b> {endDate}
+                </h1>
             </div>
 
             <img
@@ -34,7 +50,7 @@ const ProjectCard = ({ projectImg, name, githubLink, liveLink }) => {
                 alt="Project 1 Image"
             />
             <h1 className="font-bold sm:text-3xl text-1xl">{name}</h1>
-            <div className="flex gap-4 sm:w-fit w-full">
+            <div className="flex flex-col sm:flex-row gap-4 sm:w-fit w-full">
                 <button className={buttonStyle} onClick={onGitHubClicked}>
                     GitHub
                 </button>
@@ -43,7 +59,7 @@ const ProjectCard = ({ projectImg, name, githubLink, liveLink }) => {
                 </button>
             </div>
             <div
-                className="absolute right-5 bottom-5 hover:cursor-pointer"
+                className="absolute right-3 bottom-3 sm:right-5 sm:bottom-5 hover:cursor-pointer"
                 onClick={() => {
                     isAboutActive
                         ? setIsAboutActive(false)
