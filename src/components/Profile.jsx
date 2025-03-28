@@ -3,6 +3,7 @@ import profilePic from "../assets/profile-pic.jpg";
 import GitHubLogo from "../assets/github.png";
 import LinkedinLogo from "../assets/linkedin.png";
 import Resume from "../assets/Tarif_Mohammad_Resume.pdf";
+import { FaMapMarker } from "react-icons/fa";
 
 const Profile = () => {
     const logoClass =
@@ -41,6 +42,10 @@ const Profile = () => {
                 <h1 className="text-[#555555] font-bold sm:text-[1.75rem] text-[1.3rem]">
                     Frontend Developer
                 </h1>
+                <div className="flex justify-center items-center text-[#555555] mb-3">
+                    <FaMapMarker className="text-[1rem] mb-1 mr-1" />
+                    <h1 className="text-[1rem]">Toronto, Ontario</h1>
+                </div>
                 <div className="flex justify-center items-center gap-4">
                     <button
                         className="text-center border-[0.1rem] rounded-4xl border-[#555555] p-4 font-bold w-[8rem] text-[0.8rem] hover:text-white hover:bg-[#353535] hover:cursor-pointer transition duration-300 ease-in-out"
