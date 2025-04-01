@@ -24,7 +24,7 @@ const Projects = () => {
                     startDate="2024-1-24"
                     endDate="2024-4-15"
                 />
-                <ProjectCard
+                {/* <ProjectCard
                     projectImg={Project2Img}
                     name="Mini Projects"
                     githubLink="https://github.com/Tarif24/Mini_Projects_Website"
@@ -32,7 +32,7 @@ const Projects = () => {
                     tech="HTML, CSS, JS"
                     startDate="2024-10-26"
                     endDate="2025-2-17"
-                />
+                /> */}
                 <ProjectCard
                     projectImg={Project3Img}
                     name="Game Browser"
