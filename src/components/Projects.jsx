@@ -24,15 +24,15 @@ const Projects = () => {
                     startDate="2024-1-24"
                     endDate="2024-4-15"
                 />
-                {/* <ProjectCard
+                <ProjectCard
                     projectImg={Project2Img}
                     name="Mini Projects"
-                    githubLink="https://github.com/Tarif24/Mini_Projects_Website"
-                    liveLink="https://miniprojects.tarifmohammad.com/"
-                    tech="HTML, CSS, JS"
-                    startDate="2024-10-26"
-                    endDate="2025-2-17"
-                /> */}
+                    githubLink="https://github.com/Tarif24/Mini_Projects_Website_React"
+                    liveLink="https://mini-projects.tarifmohammad.com/"
+                    tech="React.js, Tailwind CSS"
+                    startDate="2025-4-8"
+                    endDate="N/A"
+                />
                 <ProjectCard
                     projectImg={Project3Img}
                     name="Game Browser"
