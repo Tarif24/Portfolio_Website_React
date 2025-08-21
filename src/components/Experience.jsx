@@ -12,19 +12,20 @@ const Experience = () => {
             nextSection="projects"
         >
             <div className="flex flex-1 gap-8 flex-wrap md:flex-row flex-col justify-between md:items-stretch items-center my-16 w-full">
-                <ExperienceItemsContainer title="Frontend Development">
-                    <ExperienceItem skill="HTML" skillLevel={3} />
-                    <ExperienceItem skill="CSS" skillLevel={3} />
+                <ExperienceItemsContainer title="Web Development">
+                    <ExperienceItem skill="React" skillLevel={2} />
+                    <ExperienceItem skill="Tailwind" skillLevel={3} />
                     <ExperienceItem skill="JavaScript" skillLevel={2} />
-                    <ExperienceItem skill="React" skillLevel={1} />
-                    <ExperienceItem skill="Tailwind" skillLevel={2} />
+                    <ExperienceItem skill="Node.js" skillLevel={2} />
+                    <ExperienceItem skill="Express.js" skillLevel={2} />
+                    <ExperienceItem skill="MongoDB" skillLevel={2} />
                 </ExperienceItemsContainer>
 
-                <ExperienceItemsContainer title="Game Development">
-                    <ExperienceItem skill="Unreal Engine" skillLevel={2} />
-                    <ExperienceItem skill="Unity" skillLevel={3} />
-                    <ExperienceItem skill="C++" skillLevel={3} />
-                    <ExperienceItem skill="C#" skillLevel={2} />
+                <ExperienceItemsContainer title="Project Management/Deployment">
+                    <ExperienceItem skill="Docker" skillLevel={2} />
+                    <ExperienceItem skill="Trello" skillLevel={1} />
+                    <ExperienceItem skill="Render" skillLevel={2} />
+                    <ExperienceItem skill="Vercel" skillLevel={1} />
                 </ExperienceItemsContainer>
 
                 <ExperienceItemsContainer title="Source Control">
