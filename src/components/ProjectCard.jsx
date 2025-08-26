@@ -21,11 +21,13 @@ const ProjectCard = ({
         window.open(liveLink);
     };
 
-    const buttonStyle = `sm:text-[1rem] text-[0.9rem] font-medium border-2 rounded-[4rem] border-[#555555] align-text-center p-4 sm:w-[8rem] flex-1 transition duration-300 ease-in-out hover:text-white hover:bg-[#555555] hover:cursor-pointer ${isAboutActive ? "" : "z-1"}`;
+    const buttonStyle = `sm:text-[1rem] text-[0.9rem] font-medium border-2 rounded-[4rem] border-[#555555] align-text-center p-4 sm:w-[8rem] flex-1 transition duration-300 ease-in-out hover:text-white hover:bg-[#555555] hover:cursor-pointer`;
 
     const infoIconStyle = isAboutActive ? "text-white" : "text-black";
 
-    const aboutStyle = `absolute top-0 justify-self-center flex flex-col gap-4 justify-center items-center text-white w-full h-full bg-[#414141] border-4 rounded-4xl border-white transition duration-250 ease-in-out ${isAboutActive ? "opacity-100" : "opacity-0"}`;
+    const aboutStyle = `absolute top-0 justify-self-center flex flex-col gap-4 justify-center items-center text-white w-full h-full bg-black/65 border-4 rounded-4xl border-white transition duration-250 ease-in-out z-1 ${
+        isAboutActive ? "opacity-100" : "opacity-0 pointer-events-none"
+    }`;
 
     return (
         <div className="relative flex flex-1 flex-col gap-6 items-center p-6 bg-[#f7f7f7] border-2 rounded-4xl border-[#555555] lg:w-full md:w-[80%] justify-self-center pb-12 sm:pb-6">
@@ -44,22 +46,29 @@ const ProjectCard = ({
                 </h1>
             </div>
 
-            <img
-                className="sm:size-[90%] size-[100%] rounded-4xl border-1 border-[#555555]"
-                src={projectImg}
-                alt="Project 1 Image"
-            />
-            <h1 className="font-bold sm:text-3xl text-1xl">{name}</h1>
-            <div className="flex flex-col sm:flex-row gap-4 sm:w-fit w-full">
-                <button className={buttonStyle} onClick={onGitHubClicked}>
-                    GitHub
-                </button>
-                <button className={buttonStyle} onClick={onLiveClicked}>
-                    Live Demo
-                </button>
-            </div>
             <div
-                className="absolute right-3 bottom-3 sm:right-5 sm:bottom-5 hover:cursor-pointer"
+                className={`flex flex-1 flex-col gap-6 items-center justify-self-center ${
+                    isAboutActive && "blur"
+                }`}
+            >
+                <img
+                    className="sm:size-[90%] size-[100%] rounded-4xl border-1 border-[#555555]"
+                    src={projectImg}
+                    alt="Project 1 Image"
+                />
+                <h1 className="font-bold sm:text-3xl text-1xl">{name}</h1>
+                <div className="flex flex-col sm:flex-row gap-4 sm:w-fit w-full">
+                    <button className={buttonStyle} onClick={onGitHubClicked}>
+                        GitHub
+                    </button>
+                    <button className={buttonStyle} onClick={onLiveClicked}>
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+            <div
+                className="absolute right-3 bottom-3 sm:right-5 sm:bottom-5 hover:cursor-pointer z-2"
                 onClick={() => {
                     isAboutActive
                         ? setIsAboutActive(false)
