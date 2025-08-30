@@ -18,7 +18,7 @@ const Profile = () => {
     };
 
     const onLinkedinClicked = () => {
-        window.open("https://www.linkedin.com/in/tarif-mohammad-224a9316avgf");
+        window.open("https://www.linkedin.com/in/tarif-mohammad");
     };
 
     const onContactClicked = () => {
@@ -32,6 +32,7 @@ const Profile = () => {
                     className="xl:size-100 sm:size-75 size-60 rounded-[13rem]"
                     src={profilePic}
                     alt="Profile Picture"
+                    loading="lazy"
                 />
             </div>
             <div className="text-center self-center space-y-[1rem]">

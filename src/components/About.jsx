@@ -30,10 +30,10 @@ const About = () => {
                             />
                             <h1 className="font-bold">Experience</h1>
                             <h1 className="text-[#555555]">
-                                1+ years - <b>Frontend Develoment</b>
+                                1+ years - <b>Frontend Development</b>
                             </h1>
                             <h1 className="text-[#555555]">
-                                3+ years - <b>Game Develoment</b>
+                                3+ years - <b>Game Development</b>
                             </h1>
                         </div>
                         <div className="flex flex-col border-1 border-[#555555] justify-center items-center flex-1 rounded-4xl p-[1.5rem] text-center">
@@ -50,7 +50,7 @@ const About = () => {
                         </div>
                     </div>
                     <div>
-                        <h1 className="text-[#555555] xl:text-left lg:text-justify text-justify">
+                        <h1 className="text-[#555555] xl:text-left">
                             Hello, My name is Tarif Mohammad and I graduated
                             from George Brown College for Game Programming. My
                             journey began as a game developer but now my passion
@@ -58,7 +58,7 @@ const About = () => {
                             <br />
                             <br />I love the vast freedom and possibilities that
                             programming provides and how web development can
-                            transform these ideas into interactable sites that I
+                            transform these ideas into intractable sites that I
                             can have up and running in seconds. I feel that with
                             websites others can reach my work fast and anywhere
                             they are weather it be on the computer or a phone.

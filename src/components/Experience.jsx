@@ -13,33 +13,33 @@ const Experience = () => {
         >
             <div className="flex flex-1 gap-8 flex-wrap md:flex-row flex-col justify-between md:items-stretch items-center my-16 w-full">
                 <ExperienceItemsContainer title="Web Development">
-                    <ExperienceItem skill="React" skillLevel={2} />
-                    <ExperienceItem skill="Tailwind" skillLevel={3} />
-                    <ExperienceItem skill="JavaScript" skillLevel={2} />
-                    <ExperienceItem skill="Node.js" skillLevel={2} />
-                    <ExperienceItem skill="Express.js" skillLevel={2} />
-                    <ExperienceItem skill="MongoDB" skillLevel={2} />
+                    <ExperienceItem skill="React" years={2} />
+                    <ExperienceItem skill="Tailwind" years={2} />
+                    <ExperienceItem skill="JavaScript" years={2} />
+                    <ExperienceItem skill="Node.js" years={2} />
+                    <ExperienceItem skill="Express.js" years={2} />
+                    <ExperienceItem skill="MongoDB" years={1} />
                 </ExperienceItemsContainer>
 
                 <ExperienceItemsContainer title="Project Management/Deployment">
-                    <ExperienceItem skill="Docker" skillLevel={2} />
-                    <ExperienceItem skill="Trello" skillLevel={1} />
-                    <ExperienceItem skill="Render" skillLevel={2} />
-                    <ExperienceItem skill="Vercel" skillLevel={1} />
+                    <ExperienceItem skill="Docker" years={1} />
+                    <ExperienceItem skill="Trello" years={1} />
+                    <ExperienceItem skill="Render" years={1} />
+                    <ExperienceItem skill="Vercel" years={1} />
                 </ExperienceItemsContainer>
 
                 <ExperienceItemsContainer title="Source Control">
-                    <ExperienceItem skill="GitHub" skillLevel={2} />
-                    <ExperienceItem skill="Perforce" skillLevel={2} />
-                    <ExperienceItem skill="SourceTree" skillLevel={1} />
-                    <ExperienceItem skill="GitLab" skillLevel={1} />
+                    <ExperienceItem skill="GitHub" years={3} />
+                    <ExperienceItem skill="Perforce" years={2} />
+                    <ExperienceItem skill="SourceTree" years={2} />
+                    <ExperienceItem skill="GitLab" years={1} />
                 </ExperienceItemsContainer>
 
                 <ExperienceItemsContainer title="Soft Skills">
-                    <ExperienceItem skill="Time Management" skillLevel={0} />
-                    <ExperienceItem skill="Colabaration" skillLevel={0} />
-                    <ExperienceItem skill="Communication" skillLevel={0} />
-                    <ExperienceItem skill="Problem Solving" skillLevel={0} />
+                    <ExperienceItem skill="Time Management" years={0} />
+                    <ExperienceItem skill="Collaboration" years={0} />
+                    <ExperienceItem skill="Communication" years={0} />
+                    <ExperienceItem skill="Problem Solving" years={0} />
                 </ExperienceItemsContainer>
             </div>
         </BodySectionTemplate>
