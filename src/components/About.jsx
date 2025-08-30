@@ -30,7 +30,7 @@ const About = () => {
                             />
                             <h1 className="font-bold">Experience</h1>
                             <h1 className="text-[#555555]">
-                                1+ years - <b>Frontend Development</b>
+                                2+ years - <b>Frontend Development</b>
                             </h1>
                             <h1 className="text-[#555555]">
                                 3+ years - <b>Game Development</b>
