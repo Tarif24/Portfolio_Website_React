@@ -8,7 +8,7 @@ const Contact = () => {
     };
 
     const onLinkedinClicked = () => {
-        window.open("https://www.linkedin.com/in/tarif-mohammad-224a9316avgf");
+        window.open("https://www.linkedin.com/in/tarif-mohammad");
     };
 
     return (

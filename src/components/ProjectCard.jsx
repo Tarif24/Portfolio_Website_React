@@ -25,7 +25,7 @@ const ProjectCard = ({
 
     const infoIconStyle = isAboutActive ? "text-white" : "text-black";
 
-    const aboutStyle = `absolute top-0 justify-self-center flex flex-col gap-4 justify-center items-center text-white w-full h-full bg-black/65 border-4 rounded-4xl border-white transition duration-250 ease-in-out z-1 ${
+    const aboutStyle = `absolute top-0 justify-self-center flex flex-col gap-4 justify-center items-center text-white w-full h-full bg-black/65 border-2 rounded-4xl border-white transition duration-250 ease-in-out z-1 ${
         isAboutActive ? "opacity-100" : "opacity-0 pointer-events-none"
     }`;
 
