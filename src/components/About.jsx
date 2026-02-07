@@ -1,6 +1,6 @@
 import React from "react";
 import BodySectionTemplate from "./BodySectionTemplate";
-import AboutImage from "../assets/about-pic1.jpg";
+import AboutImage from "../assets/about-pic3.jpg";
 import ExperienceIcon from "../assets/experience.png";
 import { FaGraduationCap } from "react-icons/fa";
 
