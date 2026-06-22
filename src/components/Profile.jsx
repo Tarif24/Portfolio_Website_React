@@ -7,7 +7,7 @@ import { FaMapMarker } from "react-icons/fa";
 
 const Profile = () => {
     const logoClass =
-        "h-8 self-center hover:cursor-pointer transition duration-300 ease-in-out hover:scale-135";
+        "h-8 self-center hover:cursor-pointer transition duration-300 ease-in-out hover:scale-110";
 
     const onDownloadCVClicked = () => {
         window.open(Resume);

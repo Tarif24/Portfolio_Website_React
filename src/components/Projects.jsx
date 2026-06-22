@@ -5,6 +5,7 @@ import Project1Img from "../assets/project-1.png";
 import Project2Img from "../assets/project-2.png";
 import Project3Img from "../assets/project-3.png";
 import Project4Img from "../assets/project-4.png";
+import Project5Img from "../assets/project-5.png";
 
 const Projects = () => {
     return (
@@ -16,7 +17,16 @@ const Projects = () => {
         >
             <div className="my-16 grid 2xl:grid-cols-3 lg:grid-cols-2 gap-8">
                 <ProjectCard
-                    projectImg={Project1Img}
+                    projectImg={Project5Img}
+                    name="Repo Chat"
+                    githubLink="https://github.com/Tarif24/repo-chat"
+                    liveLink="https://repochat.tarifmohammad.com"
+                    tech="Next.js, Node.js, MongoDB, Typescript, OpenAI, AWS, Jest"
+                    startDate="2026-3-17"
+                    endDate="present"
+                />
+                <ProjectCard
+                    projectImg={Project4Img}
                     name="Conversa"
                     githubLink="https://github.com/Tarif24/conversa"
                     liveLink="https://conversa.tarifmohammad.com"
@@ -25,7 +35,7 @@ const Projects = () => {
                     endDate="present"
                 />
                 <ProjectCard
-                    projectImg={Project2Img}
+                    projectImg={Project3Img}
                     name="Build A Bot"
                     githubLink="https://github.com/Tarif24/Build_A_Bot_Frontend"
                     liveLink="https://buildabot.tarifmohammad.com/"
@@ -34,7 +44,7 @@ const Projects = () => {
                     endDate="2025-7-5"
                 />
                 <ProjectCard
-                    projectImg={Project4Img}
+                    projectImg={Project2Img}
                     name="Job Search"
                     githubLink="https://github.com/Tarif24/Job_Listing_Website_React"
                     liveLink="https://joblisting.tarifmohammad.com/"
@@ -43,7 +53,7 @@ const Projects = () => {
                     endDate="2025-2-24"
                 />
                 <ProjectCard
-                    projectImg={Project3Img}
+                    projectImg={Project1Img}
                     name="Game Browser"
                     githubLink="https://github.com/Tarif24/Game_Browser_Website"
                     liveLink="https://gamebrowser.tarifmohammad.com/"
