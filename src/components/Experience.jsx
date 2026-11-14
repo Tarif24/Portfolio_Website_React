@@ -24,10 +24,18 @@ const Experience = () => {
                 <ExperienceItemsContainer title="Backend Web Development">
                     <ExperienceItem skill="NodeJS" years={2} />
                     <ExperienceItem skill="ExpressJS" years={2} />
-                    <ExperienceItem skill="MongoDB" years={2} />
-                    <ExperienceItem skill="SQL" years={1} />
+                    <ExperienceItem skill="Socket.io" years={1} />
                     <ExperienceItem skill="REST API" years={1} />
                     <ExperienceItem skill="ZOD" years={1} />
+                    <ExperienceItem skill="Middleware" years={2} />
+                </ExperienceItemsContainer>
+
+                <ExperienceItemsContainer title="Database">
+                    <ExperienceItem skill="MongoDB" years={2} />
+                    <ExperienceItem skill="SQL" years={1} />
+                    <ExperienceItem skill="PostgreSQL" years={1} />
+                    <ExperienceItem skill="Prisma" years={1} />
+                    <ExperienceItem skill="Perforce" years={2} />
                 </ExperienceItemsContainer>
 
                 <ExperienceItemsContainer title="DevOps">
