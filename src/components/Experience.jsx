@@ -35,7 +35,6 @@ const Experience = () => {
                     <ExperienceItem skill="SQL" years={1} />
                     <ExperienceItem skill="PostgreSQL" years={1} />
                     <ExperienceItem skill="Prisma" years={1} />
-                    <ExperienceItem skill="Perforce" years={2} />
                 </ExperienceItemsContainer>
 
                 <ExperienceItemsContainer title="DevOps">
