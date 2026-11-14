@@ -30,7 +30,7 @@ const About = () => {
                             />
                             <h1 className="font-bold">Experience</h1>
                             <h1 className="text-[#555555]">
-                                2+ years - <b>Frontend Development</b>
+                                2+ years - <b>Full Stack Development</b>
                             </h1>
                             <h1 className="text-[#555555]">
                                 3+ years - <b>Game Development</b>
@@ -51,25 +51,29 @@ const About = () => {
                     </div>
                     <div>
                         <h1 className="text-[#555555] xl:text-left">
-                            Hello, My name is Tarif Mohammad and I graduated
-                            from George Brown College for Game Programming. My
-                            journey began as a game developer but now my passion
-                            has moved towards web development.
+                            Hi, I’m Tarif Mohammad, a full stack developer with
+                            an Advanced Diploma in Game Programming from George
+                            Brown College. I started out building games, but web
+                            development is where I found my passion because an
+                            idea can become a live, working product that anyone
+                            can reach from a phone or a computer.
                             <br />
-                            <br />I love the vast freedom and possibilities that
-                            programming provides and how web development can
-                            transform these ideas into intractable sites that I
-                            can have up and running in seconds. I feel that with
-                            websites others can reach my work fast and anywhere
-                            they are weather it be on the computer or a phone.
-                            This ease of uploading sites and ease of people
-                            being able to see and interact with my work is why I
-                            love Web Dev.
                             <br />
-                            <br />I would like to obtain a position where my
-                            experience, eagerness, and proficiency to learn will
-                            allow me the opportunity to gain valuable knowledge
-                            in Programming and the world of development.
+                            For the past two years I’ve been building and
+                            launching web apps from scratch, and I’ve loved
+                            every part of it, from the first idea to seeing it
+                            live for real people to use. I care a lot about
+                            making things that work well, so I test my projects
+                            carefully, write test plans, and track down bugs
+                            before anyone else has to run into them. I enjoy
+                            both sides of the process, building software and
+                            making it better, which is why I’m drawn to full
+                            stack, backend, and QA roles.
+                            <br />
+                            <br />
+                            I’m looking for a team where I can contribute from
+                            day one, keep sharpening my technical skills, and
+                            help ship software that works.
                         </h1>
                     </div>
                 </div>

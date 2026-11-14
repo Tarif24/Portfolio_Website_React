@@ -41,7 +41,7 @@ const Profile = () => {
                     Tarif Mohammad
                 </h1>
                 <h1 className="text-[#555555] font-bold sm:text-[1.75rem] text-[1.3rem]">
-                    Frontend Developer
+                    Full Stack Developer
                 </h1>
                 <div className="flex justify-center items-center text-[#555555] mb-3">
                     <FaMapMarker className="text-[1rem] mb-1 mr-1" />

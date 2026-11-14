@@ -24,15 +24,15 @@ const Experience = () => {
                 <ExperienceItemsContainer title="Backend Web Development">
                     <ExperienceItem skill="NodeJS" years={2} />
                     <ExperienceItem skill="ExpressJS" years={2} />
-                    <ExperienceItem skill="MongoDB" years={1} />
-                    <ExperienceItem skill="Socket.io" years={1} />
+                    <ExperienceItem skill="MongoDB" years={2} />
+                    <ExperienceItem skill="SQL" years={1} />
                     <ExperienceItem skill="REST API" years={1} />
                     <ExperienceItem skill="ZOD" years={1} />
                 </ExperienceItemsContainer>
 
                 <ExperienceItemsContainer title="DevOps">
                     <ExperienceItem skill="AWS" years={1} />
-                    <ExperienceItem skill="Docker" years={1} />
+                    <ExperienceItem skill="Docker" years={2} />
                     <ExperienceItem skill="Jest" years={1} />
                     <ExperienceItem skill="GitHub Actions" years={1} />
                     <ExperienceItem skill="Playwright" years={1} />
@@ -41,9 +41,9 @@ const Experience = () => {
 
                 <ExperienceItemsContainer title="Project Management">
                     <ExperienceItem skill="Trello" years={1} />
-                    <ExperienceItem skill="Miro" years={1} />
                     <ExperienceItem skill="DrawIO" years={1} />
                     <ExperienceItem skill="Winston Logging" years={1} />
+                    <ExperienceItem skill="Jira" years={1} />
                 </ExperienceItemsContainer>
 
                 <ExperienceItemsContainer title="Source Control">
@@ -57,6 +57,8 @@ const Experience = () => {
                     <ExperienceItem skill="Time Management" years={0} />
                     <ExperienceItem skill="Collaboration" years={0} />
                     <ExperienceItem skill="Communication" years={0} />
+                    <ExperienceItem skill="Planning" years={0} />
+                    <ExperienceItem skill="Adaptability" years={0} />
                     <ExperienceItem skill="Problem Solving" years={0} />
                 </ExperienceItemsContainer>
             </div>
