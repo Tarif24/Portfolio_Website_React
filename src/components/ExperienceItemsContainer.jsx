@@ -7,12 +7,12 @@ const ExperienceItemsContainer = ({ children, title }) => {
                 {title}
             </h1>
             {/* <div className="flex">
-                <div className="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-5 w-full">
+                <div className="flex flex-wrap lg:flex-row flex-col items-start w-full justify-start lg:gap-10 md:gap-5 sm:gap-10 gap-5">
                     {children}
                 </div>
             </div> */}
-            <div className="flex">
-                <div className="flex flex-wrap lg:flex-row flex-col items-left w-full justify-between lg:gap-10 md:gap-5 sm:gap-10 gap-5">
+            <div className="w-full">
+                <div className="grid w-full grid-cols-[repeat(auto-fill,minmax(10rem,1fr))] items-start lg:gap-10 md:gap-5 sm:gap-10 gap-5">
                     {children}
                 </div>
             </div>
